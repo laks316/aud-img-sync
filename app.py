@@ -149,7 +149,7 @@ def main():
         try:
             #st.write(os.getcwd())
             #os.system('rm -rf temmp_fold')
-            #os.mkdir('temmp_fold')
+            os.mkdir('temmp_fold')
             #with tempfile.TemporaryDirectory() as temp_dir:
             temp_dir = 'temmp_fold'
             #with temp_dir1 as temp_dir:  
